@@ -3,12 +3,13 @@
 Bu Python kodu, bir CSV dosyasındaki verileri kullanarak bir sütunu (column) doldurmayı amaçlayan bir örnektir. Kodda kullanılan ana kütüphane pandas'dır, veri manipülasyonu ve analizi için sıkça kullanılan bir araçtır. Kod, bir sütundaki eksik değerleri ("NaN" olarak temsil edilir) benzer diğer satırların değerleriyle doldurmak için Jaccard benzerliği ölçümünü kullanır.
 
 Kodun işleyişini adım adım açıklayalım:
-
-Kütüphanelerin İmport Edilmesi:
-
-pandas ve numpy kütüphaneleri import edilir. pandas, veriyi tablolar halinde (veri çerçeveleri) işlemek için kullanılırken, numpy matematiksel işlemler için kullanılır.
-Veri Okuma:
 ---------------------------------------------------------------------------------------------------------
+Kütüphanelerin İmport Edilmesi:
+---------------------------------------------------------------------------------------------------------
+pandas ve numpy kütüphaneleri import edilir. pandas, veriyi tablolar halinde (veri çerçeveleri) işlemek için kullanılırken, numpy matematiksel işlemler için kullanılır.
+---------------------------------------------------------------------------------------------------------
+Veri Okuma:
+
 pd.read_csv('your_dataset.csv') ile 'your_dataset.csv' dosyasındaki veriler bir DataFrame'e yüklenir (df).
 Eksik Değerleri Doldurma:
 
