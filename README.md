@@ -8,7 +8,7 @@ Kütüphanelerin İmport Edilmesi:
 
 pandas ve numpy kütüphaneleri import edilir. pandas, veriyi tablolar halinde (veri çerçeveleri) işlemek için kullanılırken, numpy matematiksel işlemler için kullanılır.
 Veri Okuma:
-
+---------------------------------------------------------------------------------------------------------
 pd.read_csv('your_dataset.csv') ile 'your_dataset.csv' dosyasındaki veriler bir DataFrame'e yüklenir (df).
 Eksik Değerleri Doldurma:
 
