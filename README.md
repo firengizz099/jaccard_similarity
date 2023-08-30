@@ -20,6 +20,6 @@ Eğer bir satırın 'column_name' değeri eksikse, bu eksikliği doldurmak için
 En yüksek benzerliğe sahip diğer satırın indis bilgisi max_similarity_index adlı bir değişkende tutulur.
 En Yüksek Benzerliğe Sahip Değerin Atanması:
 En yüksek benzerliğe sahip satırın 'column_name' değeri, eksik değer olan satırın 'column_name_filled' sütununa atanır.
-# Sonuçların CSV Dosyasına Yazdırılması:
 
+# Sonuçların CSV Dosyasına Yazdırılması:
 Doldurulmuş veriler, 'your_filled_dataset.csv' adlı bir CSV dosyasına yazdırılır (df.to_csv('your_filled_dataset.csv', index=False)).
