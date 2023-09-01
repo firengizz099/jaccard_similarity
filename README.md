@@ -1,3 +1,6 @@
+## Formula Jaccard_similarity
+![App Screenshot](https://github.com/firengizz099/jaccard_similarity/blob/main/Jaccard.jpg?raw=true)
+
 # jaccard_similarity
 Bu Python kodu, bir CSV dosyasındaki verileri kullanarak bir sütunu (column) doldurmayı amaçlayan bir örnektir. Kodda kullanılan ana kütüphane pandas'dır, veri manipülasyonu ve analizi için sıkça kullanılan bir araçtır. Kod, bir sütundaki eksik değerleri ("NaN" olarak temsil edilir) benzer diğer satırların değerleriyle doldurmak için Jaccard benzerliği ölçümünü kullanır.
 
@@ -23,3 +26,8 @@ En yüksek benzerliğe sahip satırın 'column_name' değeri, eksik değer olan 
 
 # Sonuçların CSV Dosyasına Yazdırılması:
 Doldurulmuş veriler, 'your_filled_dataset.csv' adlı bir CSV dosyasına yazdırılır (df.to_csv('your_filled_dataset.csv', index=False)).
+
+
+
+
+
